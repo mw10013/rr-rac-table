@@ -43,7 +43,7 @@ export default function Home() {
 
   return (
     <div className="container p-6">
-      <div className="bg-gradient-to-r from-teal-300 to-cyan-500 p-12 rounded-lg flex justify-center">
+      <div className="border p-12 rounded-lg flex justify-center">
         <Table
           aria-label="Files"
           selectionMode="multiple"
