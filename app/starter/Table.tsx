@@ -1,5 +1,4 @@
 import { ArrowUp } from 'lucide-react';
-import React from 'react';
 import {
   Cell as AriaCell,
   Column as AriaColumn,
@@ -7,19 +6,18 @@ import {
   Table as AriaTable,
   TableHeader as AriaTableHeader,
   Button,
-  CellProps,
+  type CellProps,
   Collection,
-  ColumnProps,
+  type ColumnProps,
   ColumnResizer,
   Group,
   ResizableTableContainer,
-  RowProps,
-  TableHeaderProps,
-  TableProps,
+  type RowProps,
+  type TableHeaderProps,
+  type TableProps,
   composeRenderProps,
   useTableOptions
 } from 'react-aria-components';
-import { twMerge } from 'tailwind-merge';
 import { tv } from 'tailwind-variants';
 import { Checkbox } from './Checkbox';
 import { composeTailwindRenderProps, focusRing } from './utils';
